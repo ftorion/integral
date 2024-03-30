@@ -29,12 +29,20 @@ namespace Интегрл
         }
         static double Function(double x, double y, string formul)
         {
-            string x1 = $"{x}";
-            string y1 = $"{x}";
+            string x1 = x.ToString();
+            string y1 = y.ToString();
             string zam = formul.Replace("x", x1);
             zam = zam.Replace("y", y1);
-            double value = Convert.ToDouble( new DataTable().Compute(zam, null));  
-
+            
+            foreach (char s in zam.ToString())
+            {
+                if (s == ',')
+                {
+                    zam = zam.Replace(",", ".");
+                }
+            }
+            string t = new DataTable().Compute($"{zam}", null).ToString();
+            double value = Convert.ToDouble(t);
             return value;
         }
 
@@ -54,7 +62,7 @@ namespace Интегрл
                 }
             }
 
-            return sum;
+            return sum * -1;
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
