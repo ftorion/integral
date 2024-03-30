@@ -65,3 +65,8 @@ static double DoubleIntegral(double a1, double b1, double a2, double b2, int n1,
     </Grid>
 </Window>
 ````
+
+# Источники информации 
+* [Решение двойного инетграла ]https://studwork.ru/spravochnik/matematika/vychislenie-dvoynyh-integralov
+* [Докуменатция по WPF C# ]https://metanit.com/sharp/wpf/
+* [Видео курс по WPF C#]https://www.youtube.com/playlist?list=PL0lO_mIqDDFVI0xwaYbm7h9ewYu5hftfA
