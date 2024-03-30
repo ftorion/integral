@@ -1,6 +1,7 @@
 # Интегрл
 Решить проблему с преоброзованием формулы в части кода 
-'''bash
+''' bash
+
 static double Function(double x, double y, string formul)
         {
             string x1 = Convert.ToString(x);
