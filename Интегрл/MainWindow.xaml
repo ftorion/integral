@@ -9,13 +9,13 @@
     <Grid x:Name="MainRoot" Background='White'>
         <Button x:Name="Rexult" Content="Решить" HorizontalAlignment="Left" Margin="297,251,0,0" VerticalAlignment="Top" Height="52" Width="93" Click="Button_Click_1"/>
         <TextBlock x:Name ="ReturnResult" HorizontalAlignment="Left" Margin="18,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="268" FontStyle="Italic"><Run Language="ru-ru" Text="Ответ"/></TextBlock>
-        <TextBox x:Name ="InputF" HorizontalAlignment="Left" Margin="18,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="372" Height="62" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name ="InputF" HorizontalAlignment="Left" Margin="18,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="372" Height="62"/>
         <TextBlock HorizontalAlignment="Left" Margin="18,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141"><Run Language="ru-ru" Text="Введите интеграл"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="18,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="14" Width="141"><Run Language="ru-ru" Text="В"/><Run Text="ведите предел"/><Run Language="ru-ru" Text="ы "/><Run Text="x1 y1"/></TextBlock>
-        <TextBox x:Name="Inputx1" HorizontalAlignment="Left" Margin="18,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="61" Height="37" TextChanged="TextBox_TextChanged_1"/>
-        <TextBox x:Name="Inputy1" HorizontalAlignment="Left" Margin="18,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" Height="37" TextChanged="TextBox_TextChanged_1"/>
-        <TextBox x:Name="Inputx2" HorizontalAlignment="Left" Margin="88,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62" Height="37" TextChanged="TextBox_TextChanged_1"/>
-        <TextBox x:Name="Inputy2" HorizontalAlignment="Left" Margin="88,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="61" Height="37" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="Inputx1" HorizontalAlignment="Left" Margin="18,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="61" Height="37" />
+        <TextBox x:Name="Inputy1" HorizontalAlignment="Left" Margin="18,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" Height="37" />
+        <TextBox x:Name="Inputx2" HorizontalAlignment="Left" Margin="88,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62" Height="37" />
+        <TextBox x:Name="Inputy2" HorizontalAlignment="Left" Margin="88,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="61" Height="37"/>
         <TextBlock HorizontalAlignment="Left" Margin="18,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="14" Width="141"><Run Text="В"/><Run Text="ведите предел"/><Run Text="ы "/><Run Text="x2 y2"/></TextBlock>
 
     </Grid>
