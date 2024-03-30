@@ -1,4 +1,21 @@
 # Интегрл
+Дорабоатать области инеграла и сделать так что бы они могли принимать корни и какие либо другие мат значения 
+````
+private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string formul = InputF.Text;
+
+            double x1 = Convert.ToDouble(Inputx1.Text);
+            double x2 = Convert.ToDouble(Inputx2.Text);
+            double y1 = Convert.ToDouble(Inputy1.Text);
+            double y2 = Convert.ToDouble(Inputy2.Text);
+
+            double rez = DoubleIntegral(x1, x2, y2, y1, 100, 100, formul);
+            ReturnResult.Text = Convert.ToString(rez);
+
+        }
+````
+
 Решить проблему с преоброзованием формулы в части кода 
 ````
  static double Function(double x, double y, string formul)
